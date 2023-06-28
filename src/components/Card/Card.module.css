@@ -9,7 +9,13 @@
   position: relative;
   border-radius: 0.4rem;
   margin: 0.5rem;
-}
+  }
+
+  .div:hover {
+    width: 17vw;
+    height: 17vw;
+    transition: 0.6s;
+  }
 
 .name {
   font-size: 0.8em;
