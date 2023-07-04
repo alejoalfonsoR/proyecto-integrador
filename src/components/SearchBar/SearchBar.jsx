@@ -15,8 +15,8 @@ const SearchBar = (props) => {
         className={style.input}
         type="search"
         placeholder="Busca un personaje..."
-        value={id}
         onChange={event =>{setId(event.target.value)}}
+        value={id}
       />
       <button className={style.btn} onClick={() => props.onSearch(id)}>
         Agregar

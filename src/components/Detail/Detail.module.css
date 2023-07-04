@@ -1,0 +1,28 @@
+.Div{
+    width: 100vw;
+    height: 80vh;
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Detail{
+    border-radius: 1vh;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.name{
+    font-size: 10vh;
+    
+}
+
+.img{
+    
+    /* width: 50vw;
+    height: 92vh; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
